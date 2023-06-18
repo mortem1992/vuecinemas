@@ -1,0 +1,40 @@
+.footer {
+    background: #FF8C30;
+}
+
+.footer__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 0;
+}
+
+.footer__wrap-icon {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer__wrap-p {
+    font-family: var(--CB);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+
+}
+
+@media screen and (max-width:700px) {
+    .footer__wrap{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer__wrap{
+        padding: 15px 0;
+    }
+}
+@media screen and (max-width:370px){
+    .footer__wrap-p{
+        font-size: 14px;
+    }
+}
